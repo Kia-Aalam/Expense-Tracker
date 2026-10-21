@@ -1,0 +1,85 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ===== Virtual environments =====
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ===== Django =====
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static_root/
+
+# ===== Environment variables & secrets =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ===== Distribution / packaging =====
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+pip-wheel-metadata/
+.installed.cfg
+MANIFEST
+
+# ===== Testing & coverage =====
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+
+# ===== Type checkers & linters =====
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ruff_cache/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Celery =====
+celerybeat-schedule
+celerybeat.pid
+
+# ===== Database dumps =====
+*.sqlite3
+*.dump
+*.sql.bak
+
+# ===== IDEs & editors =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
