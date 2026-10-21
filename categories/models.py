@@ -1,7 +1,7 @@
 from django.conf import settings
 from django.db import models
 
-class Category(models.Model):
+class CategoryModel(models.Model):
     class Type(models.TextChoices):
         INCOME = "income", "Income"
         EXPENSE = "expense", "Expense"
@@ -56,7 +56,6 @@ class Category(models.Model):
         default=Color.GRAY,
         blank=True,
     )
-    description = models.TextField(blank=True, null=True)
 
     class Meta:
         constraints = [
