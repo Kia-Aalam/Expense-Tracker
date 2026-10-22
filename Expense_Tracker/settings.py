@@ -36,13 +36,13 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.staticfiles',    
     # Rest Framework
     'rest_framework',
+    "rest_framework.authtoken",
     # My Apps
     'accounts.apps.AccountsConfig',
     'categories.apps.CategoriesConfig',
-    'wallets.apps.WalletsConfig',
     'transactions.apps.TransactionsConfig',
 ]
 
@@ -131,4 +131,11 @@ MAILERS = {
     'default': {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
+}
+
+
+REST_FRAMEWORK = {
+    "DEFAULT_AUTHENTICATION_CLASSES": [
+        "rest_framework.authentication.TokenAuthentication",
+    ],
 }
