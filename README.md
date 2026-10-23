@@ -1,7 +1,14 @@
-# 💸 Finora (Expense Tracker API)
+<div align="center">
 
-A simple personal expense tracker built with Django and Django REST Framework.
+# Finora 💸
 
+**Personal Finance & Expense Tracker**
+
+A simple expense tracker built with Django and Django REST Framework.
+
+![Finora Dashboard](screenshots/dashboard.png)
+
+</div>
 
 ## Features
 - User authentication
