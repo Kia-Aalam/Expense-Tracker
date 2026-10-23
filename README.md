@@ -1,18 +1,34 @@
-# 💸 Expense Tracker API
+# 💸 Finora (Expense Tracker API)
 
-A RESTful API for tracking personal expenses, built with Django and Django REST Framework.
+A simple personal expense tracker built with Django and Django REST Framework.
 
-## ✨ Features
 
-- User registration and authentication
-- Create, read, update, and delete expenses
-- Organize expenses by category
-- Filter expenses by date range, category, and amount
-- Monthly summary and spending statistics
+## Features
+- User authentication
+- Income and expense management
+- Category management
+- Transaction filtering
+- Financial summary
 
-## 🛠 Tech Stack
+## Tech Stack
+- Python
+- Django
+- Django REST Framework
+- SQLite
+- HTML, CSS, JavaScript
 
-- **Language:** Python 3.14
-- **Framework:** Django, Django REST Framework
-- **Database:** SQLite (development)
-- **Tools:** Git, Postman
+## Installation
+
+```bash
+git clone <your-repository-url>
+cd Expense_Tracker
+pip install django djangorestframework
+python manage.py migrate
+python manage.py runserver
+```
+
+Open `http://127.0.0.1:8000/` in your browser.
+
+---
+
+Built with Python 🐍
