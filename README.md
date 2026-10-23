@@ -22,7 +22,7 @@ A simple personal expense tracker built with Django and Django REST Framework.
 ```bash
 git clone <your-repository-url>
 cd Expense_Tracker
-pip install django djangorestframework
+pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 ```
